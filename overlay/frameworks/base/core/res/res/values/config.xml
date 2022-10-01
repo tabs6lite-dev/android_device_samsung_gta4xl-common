@@ -312,7 +312,10 @@
 
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
-
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/batt_slate_mode</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+	
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
