@@ -33,6 +33,7 @@ dalvik.vm.lockprof.threshold=500
 ro.frp.pst=/dev/block/persistent
 
 ## Graphics
+debug.sf.disable_backpressure=1
 debug.sf.latch_unsignaled=1
 ro.config.avoid_gfx_accel=true
 ro.opengles.version=196610
